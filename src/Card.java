@@ -67,7 +67,7 @@ public class Card {
 
     // METHODS
     public String toString() {
-        return this.color + " " + this.rank + " "+ this.symbol + " " + this.value + " " + this.playable + "\n";
+        return this.color + " " + this.rank + " "+ this.symbol + " " + "\n";
     }
     public boolean isEqual(Card otherCard) {
         if(this.value == otherCard.value) {

@@ -64,4 +64,7 @@ public class Deck {
         }
         return temp;
     }
+    public Card getCardAt(int pos) {
+        return this.cards[pos];
+    }
 }
