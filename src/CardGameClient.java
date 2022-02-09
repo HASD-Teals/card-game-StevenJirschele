@@ -3,9 +3,6 @@ public class CardGameClient {
         Deck myDeck1 = new Deck();
         Deck myDeck2 = new Deck();
 
-        Card[] Cards1 = myDeck1.getCards();
-        Card[] Cards2 = myDeck2.getCards();
-
         myDeck1.shuffleCards();
         myDeck2.shuffleCards();
 
