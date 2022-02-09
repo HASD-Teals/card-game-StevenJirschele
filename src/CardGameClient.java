@@ -24,6 +24,9 @@ public class CardGameClient {
                 counter++;
             } 
         }
+        if(counter <= 0) {
+            System.out.println("There Are No Matches");
+        }
         return counter;
     }
 }
